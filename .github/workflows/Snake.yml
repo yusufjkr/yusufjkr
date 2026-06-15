@@ -11,7 +11,8 @@ jobs:
     steps:
       - uses: Platane/snk@v3
         with:
-          github_user_name: name: Generate Snake Animation
+          github_user_name:yusufjkr
+      name: Generate Snake Animation
 on:
   schedule:
     - cron: "0 */12 * * *"
